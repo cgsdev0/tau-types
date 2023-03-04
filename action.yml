@@ -1,0 +1,18 @@
+# action.yml
+name: 'Build TAU Types'
+description: 'Build TAU types from a JSON schema file'
+inputs:
+  schema-file:
+    description: 'Path to JSON schema file'
+    required: true
+    default: 'eventsub_subscriptions.json'
+  output-file:
+    description: 'Path to write the declaration file to'
+    required: true
+    default: 'index.d.ts'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.schema-file }}
+    - ${{ inputs.output-file }}

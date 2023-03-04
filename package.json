@@ -1,0 +1,28 @@
+{
+  "name": "tau-types",
+  "version": "0.0.1",
+  "description": "Typescript definitions for TAU",
+  "main": "",
+  "scripts": {
+    "build": "bin/gen-typemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgsdev0/tau-types.git"
+  },
+  "keywords": [
+    "tau",
+    "twitch",
+    "typescript"
+  ],
+  "author": "cgsdev0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgsdev0/tau-types/issues"
+  },
+  "homepage": "https://github.com/cgsdev0/tau-types#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "quicktype": "^23.0.11"
+  }
+}

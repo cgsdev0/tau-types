@@ -1,0 +1,4 @@
+node_modules/
+schema.json
+schema_fixed.json
+index.d.ts
